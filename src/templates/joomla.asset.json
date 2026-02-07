@@ -4,7 +4,7 @@
 	"description": "MokoCassiopeia template assets",
 	"license": "GPL-3.0-or-later",
 	"x-header": {
-		"copyright_year": 2025,
+		"copyright_year": 2026,
 		"author": "Jonathan Miller",
 		"owner": "Moko Consulting",
 		"contact": "hello@mokoconsulting.tech",
@@ -47,6 +47,12 @@
 			"attributes": {"media": "all"}
 		},
 		{
+			"name": "template.font.osaka",
+			"type": "style",
+			"uri": "media/templates/site/mokocassiopeia/css/fonts/osaka.css",
+			"attributes": {"media": "all"}
+		},
+		{
 			"name": "template.editor",
 			"type": "style",
 			"uri": "media/templates/site/mokocassiopeia/css/editor.css",
@@ -68,18 +74,6 @@
 			"name": "template.light.colors_standard.min",
 			"type": "style",
 			"uri": "media/templates/site/mokocassiopeia/css/colors/light/colors_standard.min.css",
-			"attributes": {"media": "all"}
-		},
-		{
-			"name": "template.light.colors_alternative",
-			"type": "style",
-			"uri": "media/templates/site/mokocassiopeia/css/colors/light/colors_alternative.css",
-			"attributes": {"media": "all"}
-		},
-		{
-			"name": "template.light.colors_alternative.min",
-			"type": "style",
-			"uri": "media/templates/site/mokocassiopeia/css/colors/light/colors_alternative.min.css",
 			"attributes": {"media": "all"}
 		},
 		{
