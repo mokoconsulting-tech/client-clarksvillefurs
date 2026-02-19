@@ -31,7 +31,7 @@
 <updates>
   <update>
     <name>MokoCassiopeia</name>
-    <description>Moko Consulting’s site template based on Cassiopeia.</description>
+    <description>Moko Consulting's site template based on Cassiopeia.</description>
     <element>mokocassiopeia</element>
     <type>template</type>
     <client>site</client>
