@@ -12,12 +12,29 @@
  BRIEF: Changelog file documenting version history of MokoCassiopeia
  -->
 
-# Changelog — MokoCassiopeia (VERSION: 03.06.03)
+# Changelog — MokoCassiopeia for Clarksville Furs (VERSION: 03.06.03)
 
-All notable changes to the MokoCassiopeia Joomla template are documented in this file.
+All notable changes to this client implementation of the MokoCassiopeia Joomla template are documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [03.06.03-client] - 2026-02-19
+
+### Added
+- **Client Implementation**: Configured MokoCassiopeia template for Clarksville Furs client
+- **Branding**: Set default site title to "Clarksville Furs"
+- **Documentation**: Updated README.md to reflect client-specific implementation
+
+### Changed
+- **README**: Updated title to indicate Clarksville Furs implementation
+- **README**: Updated installation instructions for client-specific deployment
+- **README**: Updated links to reference both client and base template repositories
+- **Template Details**: Changed default siteTitle from "MokoCassiopeia" to "Clarksville Furs"
+
+## Base Template History
+
+This client implementation is based on MokoCassiopeia version 03.06.03. For the complete base template changelog, see the [MokoCassiopeia repository](https://github.com/mokoconsulting-tech/MokoCassiopeia/blob/main/CHANGELOG.md).
 
 ## [03.06.03] - 2026-01-30
 

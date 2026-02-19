@@ -13,15 +13,15 @@
  BRIEF: Documentation for MokoCassiopeia template
  -->
 
-# README - MokoCassiopeia (VERSION: 03.06.03)
+# README - MokoCassiopeia for Clarksville Furs (VERSION: 03.06.03)
 
-**A Modern, Lightweight Joomla Template Based on Cassiopeia**
+**Client Implementation of MokoCassiopeia for Clarksville Furs**
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![Joomla](https://img.shields.io/badge/Joomla-4.4.x%20%7C%205.x-blue.svg)](https://www.joomla.org)
 [![PHP](https://img.shields.io/badge/PHP-8.0%2B-blue.svg)](https://www.php.net)
 
-MokoCassiopeia is a modern, lightweight enhancement layer built on top of Joomla's Cassiopeia template. It adds **Font Awesome 7**, **Bootstrap 5** helpers, an automatic **Table of Contents (TOC)** utility, advanced **Dark Mode** theming, and optional integrations for **Google Tag Manager** and **Google Analytics (GA4)**—all while maintaining minimal core template overrides for maximum upgrade compatibility.
+This is a customized implementation of the MokoCassiopeia Joomla template specifically configured for **Clarksville Furs**. MokoCassiopeia is a modern, lightweight enhancement layer built on top of Joomla's Cassiopeia template. It adds **Font Awesome 7**, **Bootstrap 5** helpers, an automatic **Table of Contents (TOC)** utility, advanced **Dark Mode** theming, and optional integrations for **Google Tag Manager** and **Google Analytics (GA4)**—all while maintaining minimal core template overrides for maximum upgrade compatibility.
 
 ---
 
@@ -96,9 +96,11 @@ MokoCassiopeia is a modern, lightweight enhancement layer built on top of Joomla
 
 ## 📦 Installation
 
-### Via Joomla Extension Manager
+### Client-Specific Implementation
 
-1. Download the latest `mokocassiopeia-{version}.zip` from [Releases](https://github.com/mokoconsulting-tech/MokoCassiopeia/releases)
+This repository contains the Clarksville Furs client implementation of MokoCassiopeia. To deploy:
+
+1. Package the template files from this repository
 2. In Joomla admin, navigate to **System → Install → Extensions**
 3. Upload the ZIP file and click **Upload & Install**
 4. Navigate to **System → Site Templates**
@@ -107,11 +109,15 @@ MokoCassiopeia is a modern, lightweight enhancement layer built on top of Joomla
 ### Via Git (Development)
 
 ```bash
-git clone https://github.com/mokoconsulting-tech/MokoCassiopeia.git
-cd MokoCassiopeia
+git clone https://github.com/mokoconsulting-tech/client-clarksvilleffurs.git
+cd client-clarksvilleffurs
 ```
 
 See [Development Guide](./docs/JOOMLA_DEVELOPMENT.md) for development setup.
+
+### Base Template
+
+This implementation is based on [MokoCassiopeia](https://github.com/mokoconsulting-tech/MokoCassiopeia).
 
 ---
 
@@ -472,26 +478,30 @@ All third-party libraries and assets remain the property of their respective aut
 
 ## 🔗 Links
 
-- **Repository**: [GitHub](https://github.com/mokoconsulting-tech/MokoCassiopeia)
-- **Issue Tracker**: [GitHub Issues](https://github.com/mokoconsulting-tech/MokoCassiopeia/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/mokoconsulting-tech/MokoCassiopeia/discussions)
-- **Roadmap**: [Full Roadmap](https://mokoconsulting.tech/support/joomla-cms/mokocassiopeia-roadmap)
+- **Base Template**: [MokoCassiopeia](https://github.com/mokoconsulting-tech/MokoCassiopeia)
+- **Client Repository**: [GitHub](https://github.com/mokoconsulting-tech/client-clarksvilleffurs)
+- **Issue Tracker**: [GitHub Issues](https://github.com/mokoconsulting-tech/client-clarksvilleffurs/issues)
+- **Base Template Issues**: [MokoCassiopeia Issues](https://github.com/mokoconsulting-tech/MokoCassiopeia/issues)
 - **Moko Consulting**: [Website](https://mokoconsulting.tech)
 
 ---
 
 ## 📊 Metadata
 
+- **Client**: Clarksville Furs
+- **Base Template**: MokoCassiopeia 03.06.03
 - **Maintainer**: Moko Consulting Engineering
 - **Author**: Jonathan Miller (@jmiller-moko)
-- **Repository**: https://github.com/mokoconsulting-tech/MokoCassiopeia
+- **Repository**: https://github.com/mokoconsulting-tech/client-clarksvilleffurs
+- **Base Template Repository**: https://github.com/mokoconsulting-tech/MokoCassiopeia
 - **License**: GPL-3.0-or-later
-- **Classification**: Public Open Source Standards
+- **Classification**: Client Implementation
 
 ## 📝 Revision History
 
 | Date       | Version  | Change Summary                                                            | Author                          |
 | ---------- | -------- | ------------------------------------------------------------------------- | ------------------------------- |
+| 2026-02-19 | 03.06.03 | Updated for Clarksville Furs client implementation | Copilot Agent |
 | 2026-01-30 | 03.06.03 | Updated README title, fixed custom color variables instructions, improved TOC color scheme integration | Copilot Agent                   |
 | 2026-01-30 | 03.06.02 | Regenerated README with comprehensive documentation and updated structure | Copilot Agent                   |
 | 2026-01-30 | 03.06.02 | Complete rebrand to MokoCassiopeia, removed overrides                     | Copilot Agent                   |
