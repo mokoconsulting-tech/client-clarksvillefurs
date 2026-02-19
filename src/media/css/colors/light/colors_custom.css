@@ -1,0 +1,228 @@
+@charset "UTF-8";
+/* Copyright (C) 2025 Moko Consulting <hello@mokoconsulting.tech>
+
+ This file is part of a Moko Consulting project.
+
+ SPDX-License-Identifier: GPL-3.0-or-later
+
+ # FILE INFORMATION
+ DEFGROUP: Joomla.Template.Site
+ INGROUP: MokoCassiopeia.Templates
+ PATH: ./templates/colors_custom_light.css
+ VERSION: 03.06.03
+ BRIEF: Template for custom light mode color definitions
+
+ # USAGE INSTRUCTIONS
+ 1. Copy this file to: media/templates/site/mokocassiopeia/css/colors/light/colors_custom.css
+ 2. Customize the CSS variables below to match your brand colors for light mode
+ 3. In Joomla admin, go to System → Site Templates → MokoCassiopeia
+ 4. Under Theme tab, set "Light Mode Palette" to "Custom"
+ 5. Save and view your site in light mode to see the custom colors
+
+ NOTE: This file is excluded from version control (.gitignore) to prevent
+ fork-specific customizations from being committed to the repository.
+ */
+
+/* -----------------------------------------------
+ * CUSTOM LIGHT THEME
+ * --------------------------------------------- */
+
+:root[data-bs-theme='light']{
+	/* System hint for native widgets */
+	color-scheme: light;
+
+	/* ===== PRIMARY BRAND COLORS ===== */
+	/* Sky blue pulled from Clarksville Furs mascot background */
+	--color-primary: #a3cde2;
+
+	/* Accent colors pulled from logo lettering and sparkles */
+	--accent-color-primary: #df4830;
+	--accent-color-secondary: #eec234;
+
+	/* ===== LINK COLORS ===== */
+	--color-link: #112855;
+	--color-hover: #df4830;
+	--color-active: var(--mainmenu-nav-link-color);
+
+	/* ===== NAVIGATION ===== */
+	--mainmenu-nav-link-color: #112855;
+	--nav-text-color: #112855;
+	--nav-bg-color: #f8fbfc;
+
+	/* ===== HEADER BACKGROUND ===== */
+	--header-background-image: url('../../../../../../media/templates/site/mokocassiopeia/images/bg.svg');
+	--header-background-attachment: fixed;
+	--header-background-repeat: repeat;
+	--header-background-size: auto;
+
+	/* ===== CONTAINER BACKGROUNDS ===== */
+	--container-below-topbar-bg-image: ;
+	--container-below-topbar-bg-color: ;
+	--container-below-topbar-bg-position: center;
+	--container-below-topbar-bg-attachment: fixed;
+	--container-below-topbar-bg-repeat: no-repeat;
+	--container-below-topbar-bg-size: cover;
+	--container-below-topbar-border: ;
+	--container-below-topbar-border-radius: ;
+
+	--container-top-a-bg-image: ;
+	--container-top-a-bg-color: ;
+	--container-top-a-bg-position: center;
+	--container-top-a-bg-attachment: fixed;
+	--container-top-a-bg-repeat: no-repeat;
+	--container-top-a-bg-size: cover;
+	--container-top-a-border: ;
+	--container-top-a-border-radius: ;
+
+	--container-top-b-bg-image: ;
+	--container-top-b-bg-color: ;
+	--container-top-b-bg-position: center;
+	--container-top-b-bg-attachment: fixed;
+	--container-top-b-bg-repeat: no-repeat;
+	--container-top-b-bg-size: cover;
+	--container-top-b-border: ;
+	--container-top-b-border-radius: ;
+
+	--container-toc-bg: ;
+	--container-toc-color: #112855;
+
+	--container-sidebar-bg-image: ;
+	--container-sidebar-bg-color: ;
+	--container-sidebar-bg-position: center;
+	--container-sidebar-bg-attachment: scroll;
+	--container-sidebar-bg-repeat: repeat;
+	--container-sidebar-bg-size: auto;
+	--container-sidebar-border: ;
+	--container-sidebar-border-radius: ;
+
+	--container-bottom-a-bg-image: ;
+	--container-bottom-a-bg-color: ;
+	--container-bottom-a-bg-position: center;
+	--container-bottom-a-bg-attachment: fixed;
+	--container-bottom-a-bg-repeat: no-repeat;
+	--container-bottom-a-bg-size: cover;
+	--container-bottom-a-border: ;
+	--container-bottom-a-border-radius: ;
+
+	--container-bottom-b-bg-image: ;
+	--container-bottom-b-bg-color: ;
+	--container-bottom-b-bg-position: center;
+	--container-bottom-b-bg-attachment: fixed;
+	--container-bottom-b-bg-repeat: no-repeat;
+	--container-bottom-b-bg-size: cover;
+	--container-bottom-b-border: ;
+	--container-bottom-b-border-radius: ;
+
+	/* ===== BOOTSTRAP 5 COLOR PALETTE (Light Mode) ===== */
+	--blue: #112855;
+	--black: #000;
+	--indigo: #27406f;
+	--purple: #3a3f76;
+	--pink: #df4830;
+	--red: #df4830;
+	--orange: #df4830;
+	--yellow: #eec234;
+	--green: #2f8f67;
+	--teal: #a0d1ec;
+	--cyan: #abd9f3;
+	--white: #fff;
+
+	/* Gray scale aligned to logo outlines and paw pads */
+	--gray-100: #f8fbfc;
+	--gray-200: #f3f6f7;
+	--gray-300: #e6edf1;
+	--gray-400: #d7e2e8;
+	--gray-500: #b8c3cb;
+	--gray-600: #8b8c8d;
+	--gray-700: #5c6670;
+	--gray-800: #22272d;
+	--gray-900: #000001;
+
+	/* Contextual colors */
+	--primary: #112855;
+	--secondary: #5c6670;
+	--success: #2f8f67;
+	--info: #27406f;
+	--warning: #eec234;
+	--danger: #df4830;
+	--light: #f8fbfc;
+	--dark: #22272d;
+
+	/* ===== BODY & TYPOGRAPHY ===== */
+	--body-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
+	--body-font-size: 1rem;
+	--body-font-weight: 400;
+	--body-line-height: 1.5;
+
+	--body-color: #22272d;
+	--body-color-rgb: 34, 39, 45;
+	--body-bg: #f8fbfc;
+	--body-bg-rgb: 248, 251, 252;
+
+	/* ===== ADDITIONAL THEME COLORS ===== */
+	--muted-color: #5c6670;
+	--hr-color: var(--border-color, #d7e2e8);
+	--link-active-color: var(--link-color);
+	--code-color: #df4830;
+	--code-color-ink: var(--code-color, #df4830);
+	--border-color-soft: var(--border-color, #d7e2e8);
+	--kbd-bg: var(--secondary-bg, #f3f6f7);
+	--kbd-ink: var(--body-color, #22272d);
+	--toc-bg: var(--secondary-bg, #f3f6f7);
+	--toc-ink: var(--color-primary, #a3cde2);
+	--selection-bg: var(--highlight-bg, #eec23433);
+	--selection-ink: var(--body-color, #22272d);
+
+	--emphasis-color: #000001;
+	--emphasis-color-rgb: 0, 0, 1;
+
+	--secondary-color: #22272dbf;
+	--secondary-color-rgb: 34, 39, 45;
+	--secondary-bg: #f3f6f7;
+	--secondary-bg-rgb: 243, 246, 247;
+
+	--tertiary-color: #22272d80;
+	--tertiary-color-rgb: 34, 39, 45;
+	--tertiary-bg: #fdfefe;
+	--tertiary-bg-rgb: 253, 254, 254;
+
+	--heading-color: #112855;
+
+	--link-color: #112855;
+	--link-color-rgb: 17, 40, 85;
+	--link-decoration: underline;
+	--link-hover-color: #df4830;
+	--link-hover-color-rgb: 223, 72, 48;
+
+	--highlight-color: #22272d;
+	--highlight-bg: #eec2341a;
+
+	/* ===== BORDERS & SHADOWS ===== */
+	--border: 5px;
+	--border-width: 1px;
+	--border-style: solid;
+	--border-color: #d7e2e8;
+	--border-color-translucent: #00000126;
+
+	--border-radius: .25rem;
+	--border-radius-sm: .2rem;
+	--border-radius-lg: .3rem;
+	--border-radius-xl: .3rem;
+	--border-radius-xxl: 2rem;
+	--border-radius-pill: 50rem;
+
+	--box-shadow: 0 .5rem 1rem #00000126;
+	--box-shadow-sm: 0 .125rem .25rem #0000011a;
+	--box-shadow-lg: 0 1rem 3rem #00000133;
+	--box-shadow-inset: inset 0 1px 2px #0000011a;
+
+	/* ===== FORM COLORS ===== */
+	--focus-ring-width: .25rem;
+	--focus-ring-opacity: .45;
+	--focus-ring-color: #abd9f366;
+
+	--form-valid-color: #2f8f67;
+	--form-valid-border-color: #2f8f67;
+	--form-invalid-color: #df4830;
+	--form-invalid-border-color: #df4830;
+}

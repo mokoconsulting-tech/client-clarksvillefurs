@@ -1,0 +1,228 @@
+@charset "UTF-8";
+/* Copyright (C) 2025 Moko Consulting <hello@mokoconsulting.tech>
+
+ This file is part of a Moko Consulting project.
+
+ SPDX-License-Identifier: GPL-3.0-or-later
+
+ # FILE INFORMATION
+ DEFGROUP: Joomla.Template.Site
+ INGROUP: MokoCassiopeia.Templates
+ PATH: ./templates/colors_custom_dark.css
+ VERSION: 03.06.03
+ BRIEF: Template for custom dark mode color definitions
+
+ # USAGE INSTRUCTIONS
+ 1. Copy this file to: media/templates/site/mokocassiopeia/css/colors/dark/colors_custom.css
+ 2. Customize the CSS variables below to match your brand colors for dark mode
+ 3. In Joomla admin, go to System → Site Templates → MokoCassiopeia
+ 4. Under Theme tab, set "Dark Mode Palette" to "Custom"
+ 5. Save and view your site in dark mode to see the custom colors
+
+ NOTE: This file is excluded from version control (.gitignore) to prevent
+ fork-specific customizations from being committed to the repository.
+ */
+
+/* -----------------------------------------------
+ * CUSTOM DARK THEME
+ * --------------------------------------------- */
+
+:root[data-bs-theme='dark']{
+	/* System hint for native widgets */
+	color-scheme: dark;
+
+	/* ===== PRIMARY BRAND COLORS ===== */
+	/* Deep navy coordinated with Clarksville Furs linework */
+	--color-primary: #112855;
+
+	/* Accent colors pulled from logo lettering and sparkles */
+	--accent-color-primary: #df4830;
+	--accent-color-secondary: #eec234;
+
+	/* ===== LINK COLORS ===== */
+	--color-link: #b4def8;
+	--color-hover: #eec234;
+	--color-active: var(--mainmenu-nav-link-color);
+
+	/* ===== NAVIGATION ===== */
+	--mainmenu-nav-link-color: #f8fbfc;
+	--nav-text-color: #b8c3cb;
+	--nav-bg-color: var(--color-primary);
+
+	/* ===== HEADER BACKGROUND ===== */
+	--header-background-image: url('../../../../../../media/templates/site/mokocassiopeia/images/bg.svg');
+	--header-background-attachment: fixed;
+	--header-background-repeat: repeat;
+	--header-background-size: auto;
+
+	/* ===== CONTAINER BACKGROUNDS ===== */
+	--container-below-topbar-bg-image: ;
+	--container-below-topbar-bg-color: ;
+	--container-below-topbar-bg-position: center;
+	--container-below-topbar-bg-attachment: fixed;
+	--container-below-topbar-bg-repeat: no-repeat;
+	--container-below-topbar-bg-size: cover;
+	--container-below-topbar-border: ;
+	--container-below-topbar-border-radius: ;
+
+	--container-top-a-bg-image: ;
+	--container-top-a-bg-color: ;
+	--container-top-a-bg-position: center;
+	--container-top-a-bg-attachment: fixed;
+	--container-top-a-bg-repeat: no-repeat;
+	--container-top-a-bg-size: cover;
+	--container-top-a-border: ;
+	--container-top-a-border-radius: ;
+
+	--container-top-b-bg-image: ;
+	--container-top-b-bg-color: ;
+	--container-top-b-bg-position: center;
+	--container-top-b-bg-attachment: fixed;
+	--container-top-b-bg-repeat: no-repeat;
+	--container-top-b-bg-size: cover;
+	--container-top-b-border: ;
+	--container-top-b-border-radius: ;
+
+	--container-toc-bg: ;
+	--container-toc-color: #b4def8;
+
+	--container-sidebar-bg-image: ;
+	--container-sidebar-bg-color: ;
+	--container-sidebar-bg-position: center;
+	--container-sidebar-bg-attachment: scroll;
+	--container-sidebar-bg-repeat: repeat;
+	--container-sidebar-bg-size: auto;
+	--container-sidebar-border: ;
+	--container-sidebar-border-radius: ;
+
+	--container-bottom-a-bg-image: ;
+	--container-bottom-a-bg-color: ;
+	--container-bottom-a-bg-position: center;
+	--container-bottom-a-bg-attachment: fixed;
+	--container-bottom-a-bg-repeat: no-repeat;
+	--container-bottom-a-bg-size: cover;
+	--container-bottom-a-border: ;
+	--container-bottom-a-border-radius: ;
+
+	--container-bottom-b-bg-image: ;
+	--container-bottom-b-bg-color: ;
+	--container-bottom-b-bg-position: center;
+	--container-bottom-b-bg-attachment: fixed;
+	--container-bottom-b-bg-repeat: no-repeat;
+	--container-bottom-b-bg-size: cover;
+	--container-bottom-b-border: ;
+	--container-bottom-b-border-radius: ;
+
+	/* ===== BOOTSTRAP 5 COLOR PALETTE (Dark Mode) ===== */
+	--blue: #abd9f3;
+	--black: #000;
+	--indigo: #91a4ff;
+	--purple: #c0a5ff;
+	--pink: #ff8fc0;
+	--red: #df4830;
+	--orange: #df4830;
+	--yellow: #eec234;
+	--green: #78d694;
+	--teal: #a0d1ec;
+	--cyan: #b4def8;
+	--white: #fff;
+
+	/* Gray scale tuned for dark mode */
+	--gray-100: #0f1318;
+	--gray-200: #10151b;
+	--gray-300: #151b22;
+	--gray-400: #1b2027;
+	--gray-500: #2b323b;
+	--gray-600: #48525d;
+	--gray-700: #5b6672;
+	--gray-800: #cfd6de;
+	--gray-900: #f1f5f9;
+
+	/* Contextual colors (adjusted for dark backgrounds) */
+	--primary: #abd9f3;
+	--secondary: #48525d;
+	--success: #4aa664;
+	--info: #4f7aa0;
+	--warning: #c77a00;
+	--danger: #c23a31;
+	--light: #1b2027;
+	--dark: #0f1318;
+
+	/* ===== BODY & TYPOGRAPHY ===== */
+	--body-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
+	--body-font-size: 1rem;
+	--body-font-weight: 400;
+	--body-line-height: 1.5;
+
+	--body-color: #e6ebf1;
+	--body-color-rgb: 230, 235, 241;
+	--body-bg: #0e1318;
+	--body-bg-rgb: 14, 19, 24;
+
+	/* ===== ADDITIONAL THEME COLORS ===== */
+	--muted-color: #b8c3cb;
+	--hr-color: var(--border-color, #2b323b);
+	--link-active-color: var(--link-color);
+	--code-color: #eec234;
+	--code-color-ink: var(--code-color, #eec234);
+	--border-color-soft: var(--border-color, #2b323b);
+	--kbd-bg: var(--secondary-bg, #151b22);
+	--kbd-ink: var(--body-color, #e6ebf1);
+	--toc-bg: var(--secondary-bg, #151b22);
+	--toc-ink: var(--color-primary, #112855);
+	--selection-bg: var(--highlight-bg, #eec23433);
+	--selection-ink: var(--body-color, #e6ebf1);
+
+	--emphasis-color: #fff;
+	--emphasis-color-rgb: 255, 255, 255;
+
+	--secondary-color: #e6ebf1bf;
+	--secondary-color-rgb: 230, 235, 241;
+	--secondary-bg: #151b22;
+	--secondary-bg-rgb: 21, 27, 34;
+
+	--tertiary-color: #e6ebf180;
+	--tertiary-color-rgb: 230, 235, 241;
+	--tertiary-bg: #10151b;
+	--tertiary-bg-rgb: 16, 21, 27;
+
+	--heading-color: #f1f5f9;
+
+	--link-color: #b4def8;
+	--link-color-rgb: 180, 222, 248;
+	--link-decoration: underline;
+	--link-hover-color: #eec234;
+	--link-hover-color-rgb: 238, 194, 52;
+
+	--highlight-color: #111;
+	--highlight-bg: #eec2341a;
+
+	/* ===== BORDERS & SHADOWS ===== */
+	--border: 5px;
+	--border-width: 1px;
+	--border-style: solid;
+	--border-color: #2b323b;
+	--border-color-translucent: #ffffff26;
+
+	--border-radius: .25rem;
+	--border-radius-sm: .2rem;
+	--border-radius-lg: .3rem;
+	--border-radius-xl: .3rem;
+	--border-radius-xxl: 2rem;
+	--border-radius-pill: 50rem;
+
+	--box-shadow: 0 .5rem 1rem #00000066;
+	--box-shadow-sm: 0 .125rem .25rem #00000040;
+	--box-shadow-lg: 0 1rem 3rem #00000080;
+	--box-shadow-inset: inset 0 1px 2px #00000040;
+
+	/* ===== FORM COLORS ===== */
+	--focus-ring-width: .25rem;
+	--focus-ring-opacity: .6;
+	--focus-ring-color: #abd9f366;
+
+	--form-valid-color: #78d694;
+	--form-valid-border-color: #78d694;
+	--form-invalid-color: #ff8e86;
+	--form-invalid-border-color: #ff8e86;
+}
