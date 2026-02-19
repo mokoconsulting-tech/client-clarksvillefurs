@@ -21,17 +21,28 @@
 
  # FILE INFORMATION
  DEFGROUP: Joomla.Template.Site
- INGROUP: MokoCassiopeia.Documentation
- REPO: https://github.com/mokoconsulting-tech/MokoCassiopeia
+ INGROUP: MokoCassiopeia.Documentation.Client.ClarksvilleFurs
+ REPO: https://github.com/mokoconsulting-tech/client-clarksvilleffurs
  FILE: docs/README.md
  VERSION: 03.06.03
- BRIEF: Documentation index for MokoCassiopeia template
+ BRIEF: Documentation index for MokoCassiopeia client implementation for Clarksville Furs
  PATH: /docs/README.md
 -->
 
-# MokoCassiopeia Documentation
+# MokoCassiopeia Documentation - Clarksville Furs Implementation
 
 This directory contains comprehensive documentation for the MokoCassiopeia Joomla template.
+
+> **Note:** This is a client-specific implementation for **Clarksville Furs**. The base template documentation applies to this implementation, with client-specific customizations as documented in the main [README.md](../README.md).
+
+## Client Implementation
+
+This repository contains a customized implementation of MokoCassiopeia for Clarksville Furs:
+- Default site title set to "Clarksville Furs"
+- Client-specific update server configuration
+- Based on MokoCassiopeia version 03.06.03
+
+For modifications to the base template, see the [MokoCassiopeia repository](https://github.com/mokoconsulting-tech/MokoCassiopeia).
 
 ## Documentation Overview
 
