@@ -44,9 +44,15 @@
 
     <infourl title='MokoCassiopeia - Clarksville Furs'>https://github.com/mokoconsulting-tech/client-clarksvilleffurs</infourl>
 
+    <!-- Note: Create a release in GitHub before enabling automatic updates.
+         The downloadurl should point to a packaged .zip file of the template.
+         Example: https://github.com/mokoconsulting-tech/client-clarksvilleffurs/releases/download/03.06.03/mokocassiopeia-clarksvilleffurs-03.06.03.zip
+    -->
+    <!--
     <downloads>
       <downloadurl type='full' format='zip'>https://github.com/mokoconsulting-tech/client-clarksvilleffurs/releases/download/03.06.03/mokocassiopeia-clarksvilleffurs-03.06.03.zip</downloadurl>
     </downloads>
+    -->
 
     <tags>
       <tag>stable</tag>

@@ -30,11 +30,14 @@
 	=========================================================================
 -->
 <extension type="template" client="site" method="upgrade">
+	<!-- Client-specific implementation: Update server disabled to prevent base template updates
+	     from overwriting client customizations. Enable only if you have a dedicated update server.
 	<updateservers>
-	  <server type="extension" name="MokoCassiopeia Updates" priority="1">
-	    https://mokoconsulting.tech/index.php?option=com_ars&amp;view=update&amp;task=stream&amp;format=xml&amp;id=1
+	  <server type="extension" name="MokoCassiopeia - Clarksville Furs Updates" priority="1">
+	    https://example.com/updates.xml
 	  </server>
 	</updateservers>
+	-->
 	<name>MokoCassiopeia</name>
 	<version>03.06.03</version>
 	<creationDate>2026-01-30</creationDate>
