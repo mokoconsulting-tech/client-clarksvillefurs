@@ -50,7 +50,7 @@
 	--nav-bg-color: #f8fbfc;
 
 	/* ===== HEADER BACKGROUND ===== */
-	--header-background-image: url('../../../../../../media/templates/site/mokocassiopeia/images/bg.svg');
+	--header-background-image: url('../../../../../../images/branding/skybackground.png');
 	--header-background-attachment: fixed;
 	--header-background-repeat: repeat;
 	--header-background-size: auto;
@@ -225,4 +225,9 @@
 	--form-valid-border-color: #2f8f67;
 	--form-invalid-color: #df4830;
 	--form-invalid-border-color: #df4830;
+}
+.navbar-brand img {
+  max-height: 100px;
+  width: auto;
+  height: auto;
 }
