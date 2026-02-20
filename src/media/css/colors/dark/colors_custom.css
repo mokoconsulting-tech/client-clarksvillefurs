@@ -50,7 +50,7 @@
 	--nav-bg-color: var(--color-primary);
 
 	/* ===== HEADER BACKGROUND ===== */
-	--header-background-image: url('../../../../../../images/branding/skybackground.png');
+	--header-background-image: var(--body-bg);;
 	--header-background-attachment: fixed;
 	--header-background-repeat: repeat;
 	--header-background-size: auto;
